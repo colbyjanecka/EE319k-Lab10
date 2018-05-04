@@ -1,0 +1,9 @@
+.\gui.o: GUI.c
+.\gui.o: ST7735.h
+.\gui.o: \\Mac\Home\Documents\school\EE319K\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\gui.o: PLL.h
+.\gui.o: tm4c123gh6pm.h
+.\gui.o: IO.h
+.\gui.o: Print.h
+.\gui.o: GUI.h
+.\gui.o: random.h

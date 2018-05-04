@@ -1,0 +1,63 @@
+Dependencies for Project 'Pong', Target 'Lab10': (DO NOT MODIFY !)
+F (.\startup.s)(0x5ABA11BB)(--cpu Cortex-M4 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\RV31\INC-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\CMSIS\Include-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\PLL.c)(0x5AE6C715)(-c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\RV31\INC-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\CMSIS\Include-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (\\Mac\Home\Documents\school\EE319K\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (PLL.h)(0x5ABA11BB)
+I (tm4c123gh6pm.h)(0x5388C2DA)
+F (.\ST7735.c)(0x5ABA13FC)(-c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\RV31\INC-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\CMSIS\Include-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\st7735.o --omf_browse .\st7735.crf --depend .\st7735.d)
+I (\\Mac\Home\Documents\school\EE319K\Keil\ARM\ARMCC\include\stdio.h)(0x51C88A34)
+I (\\Mac\Home\Documents\school\EE319K\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (ST7735.h)(0x5ABA11BB)
+I (tm4c123gh6pm.h)(0x5388C2DA)
+F (.\LCD.s)(0x5ACCDC8E)(--cpu Cortex-M4 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\RV31\INC-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\CMSIS\Include-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\Inc\Luminary--list .\lcd.lst --xref -o .\lcd.o --depend .\lcd.d)
+F (.\Print.s)(0x5ABD65E4)(--cpu Cortex-M4 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\RV31\INC-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\CMSIS\Include-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\Inc\Luminary--list .\print.lst --xref -o .\print.o --depend .\print.d)
+F (.\IO.c)(0x5AE7B091)(-c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\RV31\INC-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\CMSIS\Include-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\io.o --omf_browse .\io.crf --depend .\io.d)
+I (tm4c123gh6pm.h)(0x5388C2DA)
+I (\\Mac\Home\Documents\school\EE319K\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+F (.\Pong.c)(0x5AEC80AA)(-c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\RV31\INC-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\CMSIS\Include-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\pong.o --omf_browse .\pong.crf --depend .\pong.d)
+I (\\Mac\Home\Documents\school\EE319K\Keil\ARM\ARMCC\include\stdio.h)(0x51C88A34)
+I (\\Mac\Home\Documents\school\EE319K\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (ST7735.h)(0x5ABA11BB)
+I (PLL.h)(0x5ABA11BB)
+I (tm4c123gh6pm.h)(0x5388C2DA)
+I (IO.h)(0x5ABA11BB)
+I (Print.h)(0x5ABA11BB)
+I (images.h)(0x5AE7703C)
+I (Sound.h)(0x5AB0BD80)
+I (DAC.h)(0x5AB0BD80)
+I (GUI.h)(0x5AE7C8A9)
+F (.\tm4c123gh6pm.h)(0x5388C2DA)()
+F (.\dac.c)(0x5AB0BD80)(-c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\RV31\INC-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\CMSIS\Include-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\dac.o --omf_browse .\dac.crf --depend .\dac.d)
+I (\\Mac\Home\Documents\school\EE319K\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x5388C2DA)
+F (.\Sound.c)(0x5AE8FA87)(-c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\RV31\INC-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\CMSIS\Include-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\sound.o --omf_browse .\sound.crf --depend .\sound.d)
+I (\\Mac\Home\Documents\school\EE319K\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (dac.h)(0x5AB0BD80)
+I (tm4c123gh6pm.h)(0x5388C2DA)
+I (Timer0.h)(0x5751D51E)
+I (Timer1.h)(0x5751D51E)
+F (.\Timer0.c)(0x5AE7B0CA)(-c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\RV31\INC-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\CMSIS\Include-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\timer0.o --omf_browse .\timer0.crf --depend .\timer0.d)
+I (\\Mac\Home\Documents\school\EE319K\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x5388C2DA)
+F (.\Timer1.c)(0x5AEC7544)(-c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\RV31\INC-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\CMSIS\Include-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\timer1.o --omf_browse .\timer1.crf --depend .\timer1.d)
+I (\\Mac\Home\Documents\school\EE319K\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x5388C2DA)
+F (.\GUI.c)(0x5AEC8257)(-c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\RV31\INC-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\CMSIS\Include-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\gui.o --omf_browse .\gui.crf --depend .\gui.d)
+I (ST7735.h)(0x5ABA11BB)
+I (\\Mac\Home\Documents\school\EE319K\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (PLL.h)(0x5ABA11BB)
+I (tm4c123gh6pm.h)(0x5388C2DA)
+I (IO.h)(0x5ABA11BB)
+I (Print.h)(0x5ABA11BB)
+I (GUI.h)(0x5AE7C8A9)
+I (random.h)(0x5AE8E641)
+F (.\Timer2.c)(0x5AEC846D)(-c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\RV31\INC-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\CMSIS\Include-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\timer2.o --omf_browse .\timer2.crf --depend .\timer2.d)
+I (\\Mac\Home\Documents\school\EE319K\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x5388C2DA)
+F (.\ADC.c)(0x5AE78205)(-c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\RV31\INC-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\CMSIS\Include-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+I (\\Mac\Home\Documents\school\EE319K\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x5388C2DA)
+F (.\Converters.c)(0x5AE8E649)(-c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\RV31\INC-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\CMSIS\Include-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\converters.o --omf_browse .\converters.crf --depend .\converters.d)
+I (\\Mac\Home\Documents\school\EE319K\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x5388C2DA)
+F (.\random.s)(0x5AE8E57A)(--cpu Cortex-M4 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\RV31\INC-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\CMSIS\Include-I \\Mac\Home\Documents\school\EE319K\Keil\ARM\Inc\Luminary--list .\random.lst --xref -o .\random.o --depend .\random.d)

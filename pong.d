@@ -1,0 +1,12 @@
+.\pong.o: Pong.c
+.\pong.o: \\Mac\Home\Documents\school\EE319K\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\pong.o: \\Mac\Home\Documents\school\EE319K\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\pong.o: ST7735.h
+.\pong.o: PLL.h
+.\pong.o: tm4c123gh6pm.h
+.\pong.o: IO.h
+.\pong.o: Print.h
+.\pong.o: images.h
+.\pong.o: Sound.h
+.\pong.o: DAC.h
+.\pong.o: GUI.h
